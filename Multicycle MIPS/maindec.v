@@ -24,20 +24,6 @@ parameter ADDIEX  = 5'b01001; // State 9
 parameter ADDIWB  = 5'b01010; // State A
 parameter JEX     = 5'b01011; // State B
 
-   /*parameter FETCH = 4'b0000; 		// State 0
-	parameter DECODE = 4'b0001;	 	// State 1
-	parameter MEMADR = 4'b0010; 		// State 2
-	parameter MEMRD = 4'b0011; 		// State 3
-	parameter MEMWB = 4'b0100; 		// State 4
-	parameter MEMWR = 4'b0101; 		// State 5
-	parameter RTYPEEX = 4'b0110;	 	// State 6
-	parameter RTYPEWB = 4'b0111; 		// State 7
-	parameter BEQEX = 4'b1000; 		// State 8
-	parameter ADDIEX = 4'b1001; 		// State 9
-	parameter ADDIWB = 4'b1010; 		// state 10
-	parameter JEX = 4'b1011; 		// State 11*/
-
-
 //op codes
 parameter LW    = 6'b100011; // LW
 parameter SW    = 6'b101011; // SW
